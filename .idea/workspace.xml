@@ -4,59 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="780e1339-2a27-4820-8fff-122cda5d5564" name="Changes" comment="Deneme-Commit-3">
-      <change afterPath="$PROJECT_DIR$/env/default/default.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/default/java.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/images/screenshot-07b7d25b-937e-4cda-b570-5723d36a1652.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/images/screenshot-0ba125f6-0bf6-4b40-9f6d-546433f3470f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/images/screenshot-6ec9419d-ecde-43e9-bc2e-71b763800556.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/images/screenshot-7aa2ca47-a355-4228-9360-671265970f04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/images/screenshot-a2797cdb-5ace-4f70-bb62-996752da24da.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/images/screenshot-f70ba8ae-44b6-4f50-8f55-13091ae766b8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/specs/iosSpec/AnasayfaIos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/specs/iosSpec/AramaIos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/specs/iosSpec/HesabimIos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/specs/iosSpec/SepetimIos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/specs/iosSpec/UrunDetayIos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/html-report/specs/iosSpec/UrunListesiIos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specs/concepts/Anasayfa.cpt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specs/specs/Anasayfa.spec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/csvPackage/namesAndSurnames.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/csvPackage/validationInfo.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/element-values/Anasayfa.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/element-values/Hesabim.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/element-values/PDP.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/element-values/Sepet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/element-values/favoriler.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/element-values/kategoriler.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/element-values/teslimat.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/element-values/uyelikk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/js/search_index.js" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/js/search_index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/specs/BurganMobile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/specs/Spec.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/xml-report/result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reports/xml-report/result.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specs/Spec.spec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/specs/concepts/Concepts.cpt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testinium/helper/StoreHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testinium/helper/StoreHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testinium/HookImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testinium/HookImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testinium/StepImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testinium/StepImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/element-values/elements.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/testinium/helper/StoreHelper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testinium/helper/StoreHelper$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/testinium/helper/StoreHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testinium/helper/StoreHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testinium/HookImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testinium/HookImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testinium/StepImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testinium/StepImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testinium/StepImpl$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testinium/StepImpl$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testinium/StepImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testinium/StepImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/element-values/elements.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/log4j.properties" afterDir="false" />
-    </list>
+    <list default="true" id="780e1339-2a27-4820-8fff-122cda5d5564" name="Changes" comment="Deneme-Commit-6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +119,35 @@
       <option name="project" value="LOCAL" />
       <updated>1672248671459</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Deneme-Commit-5">
+      <created>1672249263051</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672249263051</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Deneme-Commit-6">
+      <created>1672249325112</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672249325112</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Deneme-Commit-6">
+      <created>1672249348730</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672249348730</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Deneme-Commit-6">
+      <created>1672249413735</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672249413735</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +166,8 @@
     <MESSAGE value="Deneme-Commit" />
     <MESSAGE value="Deneme-Commit-2" />
     <MESSAGE value="Deneme-Commit-3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deneme-Commit-3" />
+    <MESSAGE value="Deneme-Commit-5" />
+    <MESSAGE value="Deneme-Commit-6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deneme-Commit-6" />
   </component>
 </project>
