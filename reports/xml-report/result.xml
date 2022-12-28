@@ -1,0 +1,8 @@
+<testsuites>
+	<testsuite id="1" tests="1" failures="0" package="C:\Users\icg\Desktop\testiniumprojeler\YeniAltyapılar\POC-Gauge\MobileJUnit5\specs\Spec.spec" time="9.641" timestamp="2022-05-27T00:59:58" name="Testinium Mobile Senaryoları" errors="0" hostname="DESKTOP-G0SC5IS">
+		<properties></properties>
+		<testcase classname="Testinium Mobile Senaryoları" name="demo" time="9.641"></testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+</testsuites>
