@@ -1,9 +1,7 @@
 # Testinium Mobile Senaryoları
 
-
+//LC Waikiki
 ## demo
 tags:demo
-
-* Elementine tıkla "SearcText"
-* "search" li elementi bul, temizle ve "kazak" değerini yaz
-
+* "textView" elementinin görünürlüğü kontrol edilir
+* "textView" elementinin "Yeniliği Keşfet" textini içerdiği kontrol edilir
