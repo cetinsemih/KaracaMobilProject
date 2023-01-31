@@ -99,8 +99,8 @@ public class HookImpl {
             //capabilities.setCapability("key", System.getenv("key"));
             capabilities.setCapability("testinium:takesScreenshot", true);
             capabilities.setCapability("testinium:recordsVideo", true);
-            capabilities.setCapability("testinium:key", "mehmetaksahin:66e85f66c902b99253229b608203e5e2");
-            capabilities.setCapability("testinium:testID", System.getenv("testID"));
+            capabilities.setCapability("testinium:key", "karaca:711888c27d03a0a2fd3841529dbef764");
+            capabilities.setCapability("testinium:testID", System.getenv("karaca"));
         }
         return capabilities;
     }
@@ -123,7 +123,7 @@ public class HookImpl {
             capabilities
                     .setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
 
-            capabilities.setCapability(MobileCapabilityType.UDID, "1e5cdbbadc4a7dc3e4389298330bad5c587904d5");
+            capabilities.setCapability(MobileCapabilityType.UDID, "711888c27d03a0a2fd3841529dbef764");
             capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone SE");
 
             capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12.5");

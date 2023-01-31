@@ -5,51 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="780e1339-2a27-4820-8fff-122cda5d5564" name="Changes" comment="Deneme-Commit-6">
-      <change afterPath="$PROJECT_DIR$/specs/AndroidConcepts/ornek.cpt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specs/AndroidSpecs/run.spec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specs/IosConcepts/ornek.cpt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specs/IosSpecs/run.spec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gauge/lastRunCmd.json" beforeDir="false" afterPath="$PROJECT_DIR$/.gauge/lastRunCmd.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/KaracaMobilAutomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/KaracaMobilAutomation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_javaparser_javaparser_core_2_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_24_0_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_gauge_gauge_java_0_6_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/gauge.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/gauge.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/css/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/css/open-sans.css" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/css/open-sans.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Bold/OpenSans-Bold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Bold/OpenSans-Bold.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/BoldItalic/OpenSans-BoldItalic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/BoldItalic/OpenSans-BoldItalic.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Italic/OpenSans-Italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Italic/OpenSans-Italic.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Light/OpenSans-Light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Light/OpenSans-Light.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Regular/OpenSans-Regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/fonts/open-sans/Regular/OpenSans-Regular.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/html-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/js/auto-complete.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/js/auto-complete.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/js/clipboard.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/js/clipboard.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/js/jquery-3.1.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/js/jquery-3.1.0.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/js/search_index.js" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/js/search_index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/xml-report/result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reports/xml-report/result.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specs/Spec.spec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/specs/concepts/Concepts.cpt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/testinium/HookImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testinium/HookImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/element-values/elements.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/element-values/elements.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672249413735</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Deneme-Commit-6">
+      <created>1675154878964</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675154878964</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
