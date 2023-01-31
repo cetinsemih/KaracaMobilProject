@@ -1,8 +1,8 @@
 [
-	"/usr/local/bin/gauge",
+	"C:\\Program Files\\Gauge\\bin\\gauge.exe",
 	"run",
 	"--machine-readable",
 	"--hide-suggestion",
 	"--simple-console",
-	"/Users/egehankomurcu/IdeaProjects/KaracaMobilAutomation/specs/Spec.spec:4"
+	"C:/Yerel_Disk_D/Karaca/KaracaMobilProject/specs/AndroidSpecs/run.spec:12"
 ]

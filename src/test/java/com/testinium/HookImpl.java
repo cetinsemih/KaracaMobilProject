@@ -30,7 +30,7 @@ public class HookImpl {
     private Logger logger = LoggerFactory.getLogger(getClass());
     protected static AppiumDriver<MobileElement> appiumDriver;
     protected static FluentWait<AppiumDriver> appiumFluentWait;
-    public static boolean localAndroid = true;
+    public static boolean localAndroid = false;
     protected static Selector selector;
     DesiredCapabilities capabilities;
     URL localUrl;
@@ -52,7 +52,7 @@ public class HookImpl {
                     logger.info("Local cihazda Android ortamında test ayağa kalkacak");
                     appiumDriver = new AndroidDriver(localUrl, androidCapabilities(true));
                 } else {
-                    logger.info("Local cihazda Android ortamında test ayağa kalkacak");
+                    logger.info("Local cihazda IOS ortamında test ayağa kalkacak");
                     appiumDriver = new IOSDriver<>(localUrl, iosCapabilities(true));
                 }
             } else {
@@ -83,12 +83,12 @@ public class HookImpl {
 
     public DesiredCapabilities androidCapabilities(boolean isLocal) {
         capabilities = new DesiredCapabilities();
-        capabilities.setCapability(MobileCapabilityType.NO_RESET, true);
+        capabilities.setCapability(MobileCapabilityType.NO_RESET, false);
         capabilities.setCapability(MobileCapabilityType.FULL_RESET, false);
         capabilities.setCapability("unicodeKeyboard", false);
         capabilities.setCapability("resetKeyboard", false);
-        capabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.lcwaikiki.android");
-        capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.lcwaikiki.android.ui.SplashActivity");
+        capabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "net.btpro.client.karaca");
+        capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "net.btpro.client.karaca.ui.main.MainNavHostActivity");
 
 
         if (isLocal) {

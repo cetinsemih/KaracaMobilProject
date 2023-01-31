@@ -1,9 +1,78 @@
 [
   {
-    "key": "textView",
-    "androidValue": "com.lcwaikiki.android:id/textView",
-    "androidType": "id",
-    "iosValue": "//XCUIElementTypeApplication[@name=\"Ozdilekteyim\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTextField",
-    "iosType": "xpath"
+    "key": "exampleButton",
+    "androidValue": "-",
+    "androidType": "-",
+    "iosValue" : "select_ok_button",
+    "iosType" : "accessibilityid"
+  },
+  {
+    "key": "AnaSayfa",
+    "androidValue": "//android.widget.FrameLayout[@content-desc=\"ANA SAYFA\"]",
+    "androidType": "xpath",
+    "iosValue" : "",
+    "iosType" : ""
+  }
+,
+  {
+    "key": "Hesabim",
+    "androidValue": "//android.widget.FrameLayout[@content-desc=\"HESABIM\"]",
+    "androidType": "xpath",
+    "iosValue" : "",
+    "iosType" : ""
+  }
+,
+  {
+    "key": "EPosta",
+    "androidValue": "//android.widget.EditText[@text=\"E-Posta*\"]",
+    "androidType": "xpath",
+    "iosValue" : "",
+    "iosType" : ""
+  }
+,
+  {
+    "key": "Sifre",
+    "androidValue": "//android.widget.EditText[@text=\"Şifre*\"]",
+    "androidType": "xpath",
+    "iosValue" : "",
+    "iosType" : ""
+  }
+,
+  {
+    "key": "GirisYap",
+    "androidValue": "//android.widget.Button[@text=\"GİRİŞ YAP\"]",
+    "androidType": "xpath",
+    "iosValue" : "",
+    "iosType" : ""
+  }
+,
+  {
+    "key": "A_P_Hesabim_CikisYap",
+    "androidValue": "//android.widget.TextView[@text='Çıkış Yap']",
+    "androidType": "xpath",
+    "iosValue" : "",
+    "iosType" : ""
+  }
+,
+  {
+    "key": "A_P_Hesabim_CikisYapPopUp_Evet",
+    "androidValue": "//android.widget.Button[@text='EVET']",
+    "androidType": "xpath",
+    "iosValue" : "",
+    "iosType" : ""
+  }
+,
+  {
+    "key": "A_P_Hesabim_CikisYapPopUp_Hayir",
+    "androidValue": "//android.widget.Button[@text='HAYIR']",
+    "androidType": "xpath",
+    "iosValue" : "",
+    "iosType" : ""
   }
 ]
+
+
+
+
+
+

@@ -1,1 +1,1 @@
-var index = {"Tags":{"demo":["specs/Spec.html"]},"Specs":{"Testinium Mobile Senaryoları":["specs/Spec.html"]}};
+var index = {"Tags":{"OrnekSenaryoKaraca":["specs/AndroidSpecs/run.html"]},"Specs":{"MobilProject Scenarios":["specs/AndroidSpecs/run.html"]}};
