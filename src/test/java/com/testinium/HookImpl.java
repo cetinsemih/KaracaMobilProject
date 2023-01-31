@@ -83,7 +83,7 @@ public class HookImpl {
 
     public DesiredCapabilities androidCapabilities(boolean isLocal) {
         capabilities = new DesiredCapabilities();
-        capabilities.setCapability(MobileCapabilityType.NO_RESET, false);
+        capabilities.setCapability(MobileCapabilityType.NO_RESET, true);
         capabilities.setCapability(MobileCapabilityType.FULL_RESET, false);
         capabilities.setCapability("unicodeKeyboard", false);
         capabilities.setCapability("resetKeyboard", false);
