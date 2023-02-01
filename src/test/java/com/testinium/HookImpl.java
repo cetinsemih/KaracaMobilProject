@@ -100,7 +100,7 @@ public class HookImpl {
             capabilities.setCapability("testinium:takesScreenshot", true);
             capabilities.setCapability("testinium:recordsVideo", true);
             capabilities.setCapability("testinium:key", "karaca:711888c27d03a0a2fd3841529dbef764");
-            capabilities.setCapability("testinium:testID", System.getenv("karaca"));
+            capabilities.setCapability("testinium:testID", System.getenv("testID"));
         }
         return capabilities;
     }
