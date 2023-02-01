@@ -30,7 +30,7 @@ public class HookImpl {
     private Logger logger = LoggerFactory.getLogger(getClass());
     protected static AppiumDriver<MobileElement> appiumDriver;
     protected static FluentWait<AppiumDriver> appiumFluentWait;
-    public static boolean localAndroid = false;
+    public static boolean localAndroid = true;
     protected static Selector selector;
     DesiredCapabilities capabilities;
     URL localUrl;
@@ -87,8 +87,8 @@ public class HookImpl {
         capabilities.setCapability(MobileCapabilityType.FULL_RESET, false);
         capabilities.setCapability("unicodeKeyboard", false);
         capabilities.setCapability("resetKeyboard", false);
-        capabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.ipitex.krcmobile");
-        capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.ipitex.krcmobile.UI.SplashActivity");
+        capabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "net.btpro.client.karaca");
+        capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "net.btpro.client.karaca.ui.main.MainNavHostActivity");
 
 
         if (isLocal) {
@@ -100,7 +100,7 @@ public class HookImpl {
             capabilities.setCapability("testinium:takesScreenshot", true);
             capabilities.setCapability("testinium:recordsVideo", true);
             capabilities.setCapability("testinium:key", "karaca:711888c27d03a0a2fd3841529dbef764");
-            capabilities.setCapability("testinium:testID", System.getenv("testID"));
+            //capabilities.setCapability("testinium:testID", System.getenv("testID"));
         }
         return capabilities;
     }
