@@ -87,8 +87,11 @@ public class HookImpl {
         capabilities.setCapability(MobileCapabilityType.FULL_RESET, false);
         capabilities.setCapability("unicodeKeyboard", false);
         capabilities.setCapability("resetKeyboard", false);
-        capabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "net.btpro.client.karaca");
-        capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "net.btpro.client.karaca.ui.main.MainNavHostActivityDEFAULT");
+        //capabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "net.btpro.client.karaca");
+        //capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "net.btpro.client.karaca.ui.main.MainNavHostActivityDEFAULT");
+
+        capabilities.setCapability("appWaitActivity", "*");
+        capabilities.setCapability("app", "resources/driver/driver.apk");
 
 
         if (isLocal) {
