@@ -30,7 +30,7 @@ public class HookImpl {
     private Logger logger = LoggerFactory.getLogger(getClass());
     protected static AppiumDriver<MobileElement> appiumDriver;
     protected static FluentWait<AppiumDriver> appiumFluentWait;
-    public static boolean localAndroid = false;
+    public static boolean localAndroid = true;
     protected static Selector selector;
     DesiredCapabilities capabilities;
     URL localUrl;
@@ -87,22 +87,20 @@ public class HookImpl {
         capabilities.setCapability(MobileCapabilityType.FULL_RESET, false);
         capabilities.setCapability("unicodeKeyboard", false);
         capabilities.setCapability("resetKeyboard", false);
-        //capabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "net.btpro.client.karaca");
-        //capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "net.btpro.client.karaca.ui.main.MainNavHostActivityDEFAULT");
+        capabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "net.btpro.client.karaca");
+        capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "net.btpro.client.karaca.ui.main.MainNavHostActivityDEFAULT");
 
-        capabilities.setCapability("appWaitActivity", "*");
-        capabilities.setCapability("app", "https://testinium-hub.s3.amazonaws.com/6938/automated-upload/2b79ce65-c575-4b83-92a8-976d9c69706d-1-4d156b55.apk");
-
-
+        //capabilities.setCapability("appWaitActivity", "*");
+        //capabilities.setCapability("app", "https://testinium-hub.s3.amazonaws.com/6938/automated-upload/2b79ce65-c575-4b83-92a8-976d9c69706d-1-4d156b55.apk");
         if (isLocal) {
             capabilities.setCapability(MobileCapabilityType.PLATFORM, MobilePlatform.ANDROID);
             capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "android");
             capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 300);
         } else {
-            //capabilities.setCapability("key", System.getenv("key"));
+            capabilities.setCapability("key", System.getenv("key"));
             capabilities.setCapability("testinium:takesScreenshot", true);
             capabilities.setCapability("testinium:recordsVideo", true);
-            capabilities.setCapability("testinium:key", "karaca:711888c27d03a0a2fd3841529dbef764");
+            //capabilities.setCapability("testinium:key", "karaca:711888c27d03a0a2fd3841529dbef764");
             //capabilities.setCapability("testinium:testID", System.getenv("testID"));
         }
         return capabilities;
