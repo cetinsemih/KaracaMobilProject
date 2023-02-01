@@ -91,7 +91,7 @@ public class HookImpl {
         //capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "net.btpro.client.karaca.ui.main.MainNavHostActivityDEFAULT");
 
         capabilities.setCapability("appWaitActivity", "*");
-        capabilities.setCapability("app", "resources/driver/driver.apk");
+        capabilities.setCapability("app", "driver/driver.apk");
 
 
         if (isLocal) {
